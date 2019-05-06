@@ -25,7 +25,11 @@ class Scraper
   def print_courses
       self.make_courses
       Course.all.each do |course|
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 2c4108ae281228278d4e2c30dc1f0e7d20d99ad6
         if course.title
           puts "Title: #{course.title}"
           puts "  Schedule: #{course.schedule}"
@@ -35,4 +39,8 @@ class Scraper
     end
 end
 
+<<<<<<< HEAD
 Scraper.new.print_courses
+=======
+Scraper.new.print_courses
+>>>>>>> 2c4108ae281228278d4e2c30dc1f0e7d20d99ad6
